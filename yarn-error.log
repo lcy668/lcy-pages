@@ -1,0 +1,65 @@
+Arguments: 
+  F:\NodeJS\node.exe C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\xampp\mysql\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;F:\nvm;F:\NodeJS;I:\gitWarehouse\Git\cmd;C:\Users\lcy668\AppData\Local\Yarn\bin;C:\Ruby26-x64\bin;C:\Users\lcy668\AppData\Local\Microsoft\WindowsApps;F:\Bandizip\;F:\WebStorm\WebStorm 2018.3.2\bin;;C:\Users\lcy668\AppData\Roaming\npm;F:\Microsoft VS Code\bin;F:\nvm;F:\NodeJS
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: G:\MyStudy\part2\moduleOne\lcy-pages\package.json: Unexpected token  in JSON at position 233
+      at JSON.parse (<anonymous>)
+      at C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs:1098:57
+      at Generator.next (<anonymous>)
+      at step (C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs:310:30)
+      at C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs:321:13
+
+npm manifest: 
+  {
+    "name": "lcy-pages",
+    "version": "0.1.0",
+    "description": "Awesome node modules.",
+    "keywords": [
+      "lcy-pages",
+      "zce"
+    ],
+    "repository": "zce/lcy-pages",
+    "license": "MIT",
+    "author": "lcy668 <18190720217@163.com> (https://github.com/lcy668)",
+    "main": "lib/index.js",
+    "files": [
+      "lib"
+    ],
+    "scripts": {
+      "lint": "standard --fix",
+      "prepare": "npm run lint"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "standard": "16.0.3"
+    },
+    "renovate": {
+      "extends": [
+        "zce"
+      ]
+    },
+    "engines": {
+      "node": ">=10"
+    },
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

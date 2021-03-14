@@ -1,0 +1,35 @@
+{
+  "name": "lcy-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "lcy-pages",
+    "zce"
+  ],
+  "repository": "zce/lcy-pages",
+  "license": "MIT",
+  "author": "lcy668 <18190720217@163.com> (https://github.com/lcy668)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
