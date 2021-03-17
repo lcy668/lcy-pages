@@ -1,5 +1,5 @@
 Arguments: 
-  F:\NodeJS\node.exe C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs install
+  F:\NodeJS\node.exe C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs
 
 PATH: 
   C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\xampp\mysql\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;F:\nvm;F:\NodeJS;I:\gitWarehouse\Git\cmd;C:\Users\lcy668\AppData\Local\Yarn\bin;C:\Ruby26-x64\bin;C:\Users\lcy668\AppData\Local\Microsoft\WindowsApps;F:\Bandizip\;F:\WebStorm\WebStorm 2018.3.2\bin;;C:\Users\lcy668\AppData\Roaming\npm;F:\Microsoft VS Code\bin;F:\nvm;F:\NodeJS
@@ -14,12 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  SyntaxError: G:\MyStudy\part2\moduleOne\lcy-pages\package.json: Unexpected token  in JSON at position 233
-      at JSON.parse (<anonymous>)
-      at C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs:1098:57
-      at Generator.next (<anonymous>)
-      at step (C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs:310:30)
-      at C:\Users\lcy668\.yarn\releases\yarn-1.22.10.cjs:321:13
+  Error: ENOENT: no such file or directory, copyfile 'F:\WebApplication\yarn\Cache\v6\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity\node_modules\ms\license.md' -> 'G:\MyStudy\part2\moduleOne\lcy-pages\node_modules\@babel\core\node_modules\ms\license.md'
 
 npm manifest: 
   {
@@ -32,7 +27,7 @@ npm manifest:
     ],
     "repository": "zce/lcy-pages",
     "license": "MIT",
-    "author": "lcy668 <18190720217@163.com> (https://github.com/lcy668)",
+    "author": "lcy668 <https://github.com/lcy668>",
     "main": "lib/index.js",
     "files": [
       "lib"
@@ -41,7 +36,24 @@ npm manifest:
       "lint": "standard --fix",
       "prepare": "npm run lint"
     },
-    "dependencies": {},
+    "dependencies": {
+      "@babel/core": "^7.13.10",
+      "@babel/preset-env": "^7.13.10",
+      "browser-sync": "^2.26.14",
+      "del": "^6.0.0",
+      "gulp": "^4.0.2",
+      "gulp-babel": "^8.0.0",
+      "gulp-clean-css": "^4.3.0",
+      "gulp-htmlmin": "^5.0.1",
+      "gulp-if": "^3.0.0",
+      "gulp-imagemin": "^7.1.0",
+      "gulp-load-plugins": "^2.0.6",
+      "gulp-swig": "^0.9.1",
+      "gulp-uglify": "^3.0.2",
+      "gulp-useref": "^5.0.0",
+      "gulp-sass": "^4.1.0",
+      "node-sass": "^5.0.0"
+    },
     "devDependencies": {
       "standard": "16.0.3"
     },
